@@ -1,6 +1,7 @@
 :root {
     --verde: #082922;
     --amarelo: #F9FD27;
+    --cinza: #0829222c;
 
 
     --fonte-texto: "Exo 2", sans-serif;
@@ -101,17 +102,33 @@ p {
     border-radius: 20px;
 }
 
-.page-video {
+.page-geral {
     overflow: y hidden;
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 iframe {
     margin-top: 10%;
     border-radius: 15px;
+}
+
+.info-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8%;
+    background-color: var(--cinza);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.lista-info {
+    list-style-type: disc;
 }
