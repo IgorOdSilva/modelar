@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
     font-family: var(--fonte-texto);
 
 }
@@ -89,6 +88,11 @@ p {
     width: 80%;
 }
 
+strong {
+    font-weight: bold;
+    color: var(--verde);
+}
+
 .material-symbols-outlined {
     font-size: 16px;
     font-weight: bold;
@@ -117,6 +121,7 @@ iframe {
 }
 
 .info-geral {
+    overflow: y hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,6 +134,56 @@ iframe {
     padding: 2%;
 }
 
+.container-lista {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 5%;
+}
+
 .lista-info {
-    list-style-type: disc;
+    overflow: y hidden;
+    list-style: disc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    color: var(--verde);
+    width: 100%;
+}
+
+.info {
+    margin-top: 2px;
+    
+}
+
+.fundo-carrossel {
+    overflow: y hidden;
+    background-color: var(--verde);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-compromisso {
+    overflow: y hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    padding: 2%;
+    color: white;
+}
+
+.compromisso {
+    color: white;
+}
+
+.compromisso-text {
+    margin: 0;
+    text-align: center;
 }
