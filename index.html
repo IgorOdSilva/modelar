@@ -5,17 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelar Moveis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -27,8 +24,31 @@
         <p>Mesas que marcam a sua história. Design atemporal, beleza nos detalhes. Conforto e estilo para elevar seus
             ambientes.</p>
         <h1 id="produtos">ALGUNS DE NOSSOS PRODUTOS</h1>
-        <div class="carrossel">
-            <p></p>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="img/carrossel1/carrossel1.jpg" alt="Imagem do Produto">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="img/carrossel1/carrossel2.jpg" alt="Imagem do Produto">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="img/carrossel1/carrossel3.jpg" alt="Imagem do Produto">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="img/carrossel1/carrossel4.jpg" alt="Imagem do Produto">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
         <button>Compre Já</button>
         <p>ou nos conheça melhor</p>
@@ -54,16 +74,68 @@
                 </ul>
             </div>
             <div class="fundo-carrossel">
-                <div class="carrossel">
-                    <p></p>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel1.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel2.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel3.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel4.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="page-compromisso">
                 <h1>NOSSO COMPROMISSO</h1>
-                <p class="compromisso-text">A Modelar é especialista em mesas de alta decoração, unindo design moderno e atemporal. Cada peça é cuidadosamente projetada para elevar o estilo e o conforto do seu ambiente. Visite nosso site e descubra a mesa perfeita para você!</p>
+                <div class="container-lista">
+                    <ul class="lista-info">
+                        <li class="info">Coleções exclusivas: Mesas e cadeiras com designs inovadores e materiais de alta qualidade.</li>
+                        <li class="info">Ofertas imperdíveis: Preços competitivos e promoções frequentes para que você possa decorar a sua casa com bom gosto e economia.</li>
+                        <li class="info">Inspirações: Dicas e tendências para te ajudar a criar ambientes aconchegantes e cheios de personalidade.</li>
+                    </ul>
+                </div>
                 <div class="fundo-carrossel">
-                    <div class="carrossel">
-                        <p></p>
+                <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="project-img">
+                                    <img src="img/carrossel1/carrossel1.jpg" alt="Imagem do Produto">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-img">
+                                    <img src="img/carrossel1/carrossel2.jpg" alt="Imagem do Produto">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-img">
+                                    <img src="img/carrossel1/carrossel3.jpg" alt="Imagem do Produto">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-img">
+                                    <img src="img/carrossel1/carrossel4.jpg" alt="Imagem do Produto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
@@ -73,11 +145,11 @@
                 <h2 class="sub-title">QUALIDADE E EXCLUSIVIDADE</h2>
                 <div class="card">
                     <h2>Profissionais Especializados</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro deserunt nobis voluptatem, a quisquam accusamus quo assumenda consectetur nulla quae earum atque minus omnis, eius, ipsum non voluptatum esse! Quod.</p>
+                        <p>Contamos com uma equipe experiente e pronta para te atender</p>
                 </div>
                 <div class="card">
                     <h2>Profissionais Especializados</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro deserunt nobis voluptatem, a quisquam accusamus quo assumenda consectetur nulla quae earum atque minus omnis, eius, ipsum non voluptatum esse! Quod.</p>
+                        <p>Asseguramos a qualidade e a exclusividade de cada peça, porque temos fabricação própria.</p>
                 </div>
             </div>
             <div class="action">
@@ -86,16 +158,67 @@
             </div>
             <div class="feedbacks">
                 <h1>FEEDBACKS</h1>
-                <div class="carrossel">
-                    <p></p>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel1.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel2.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel3.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-img">
+                                <img src="img/carrossel1/carrossel4.jpg" alt="Imagem do Produto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
             <div class="lojas">
-                
+                <h1>ONDE NOS ESCONTRAR?</h1>
+                <div class="card-lojas">
+                    <div class="item-loja">
+                        <img src="img/mercadolivre.jpg" alt="Logo Mercado Livre">
+                    </div>
+                    <div class="item-loja">
+                        <img src="img/logo_madeiramadeira.png" alt="Logo Mercado Livre">
+                    </div>
+                    <div class="item-loja">
+                        <img src="img/magaz-luiza.png" alt="Logo Mercado Livre">
+                    </div>
+                </div>
+                <button>ENTRE EM CONTATO</button>
             </div>
-        </div> 
+        </div>
+       <div class="redes-sociais">
+            <h3>REDES SOCIAIS</h3>
+            <div class="link-redes">
+                <div class="item-redes">
+                    <img src="img/logo-face.png" alt="Logo Facebook">
+                </div>
+                <div class="item-redes">
+                    <img src="img/logo-insta.png" alt="Logo Instagram">
+                </div>
+            </div>
+       </div>
+       <footer>
+            <h3>PAGAMENTO SEGURO</h3>
+            <img src="img/logo-modelar.png" alt="">
+       </footer>
     </div>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/carrossel.js"></script>
 </body>
 
 </html>

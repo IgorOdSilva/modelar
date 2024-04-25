@@ -1,7 +1,9 @@
 :root {
     --verde: #082922;
+    --verde-claro: #1B8F76;
     --amarelo: #F9FD27;
     --cinza: #0829222c;
+    --cinza-section: #D9D9D9;
 
 
     --fonte-texto: "Exo 2", sans-serif;
@@ -63,6 +65,7 @@ button {
     color: #000000;
     font-family: var(--fonte-titulo-button);
     font-weight: 900;
+    cursor: pointer;
 }
 
 #produtos {
@@ -83,6 +86,13 @@ h2 {
     font-weight: light;
 }
 
+h3 {
+    font-family: var(--fonte-titulo-button);
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
 p {
     margin-top: 5%;
     width: 80%;
@@ -98,12 +108,24 @@ strong {
     font-weight: bold;
 }
 
-.carrossel {
+.swiper {
     margin: 5%;
     width: 364px;
     height: 281px;
-    background-color: white;
     border-radius: 20px;
+    cursor: grab;
+}
+
+.swiper img {
+    width: 364px;
+    height: 281px;
+}
+
+.swiper-slide {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-geral {
@@ -139,6 +161,7 @@ iframe {
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .lista-info {
@@ -150,11 +173,13 @@ iframe {
     text-align: left;
     gap: 10px;
     color: var(--verde);
-    width: 100%;
+    width: 80%;
+    font-size: 20px;
 }
 
 .info {
     margin-top: 2px;
+    font-size: 20px;
     
 }
 
@@ -179,6 +204,10 @@ iframe {
     color: white;
 }
 
+.page-compromisso .info {
+    color: white;
+}
+
 .compromisso {
     color: white;
 }
@@ -188,6 +217,8 @@ iframe {
     text-align: center;
 }
 
+
+
 .container-card {
     display: flex;
     flex-direction: column;
@@ -196,27 +227,44 @@ iframe {
     margin: 5%;
 }
 
+.container-card h1 {
+    font-weight: 400;
+}
+
+.container-card strong {
+    font-weight: 900;
+}
+
 .card {
+    width: 80%;
     margin: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--verde);
-    color: white;
+    color: var(--verde-claro);
     padding: 20px;
     border-radius: 5px;
 }
 
+
 .card > p {
     margin-top: 2%;
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-weight: lighter;
 }
 
 .sub-title {
+    text-align: center;
+    width: 78%;
     margin: 2%;
-    color: var(--verde);
+    color: var(--verde-claro);
     padding: 5%;
-    border: 2px solid --verde;
+    border: 3px solid var(--verde-claro);
+    border-radius: 5px;
 }
 
 .action {
@@ -238,5 +286,86 @@ iframe {
     align-items: center;
     width: 100%;
     padding-top: 5%;
-    background-color: white;
+    background-color: var(--cinza-section);
 }
+
+.lojas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cinza-section);
+    width: 100%;
+}
+
+.card-lojas {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.item-loja img {
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+}
+
+.lojas button {
+    width: 80%;
+    margin: 5%;
+}
+
+.redes-sociais {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-redes {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.item-redes {
+    display: flex;
+    width: 155px;
+    height: 105px;
+    background-color: var(--verde-claro);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.item-redes img {
+    width: 78px;
+    height: 78px;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+footer h3 {
+    color: #000000;
+}
+
+footer img {
+    width: 78px;
+    height: 78px;
+}
+
+
