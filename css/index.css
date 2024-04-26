@@ -16,9 +16,10 @@
     padding: 0;
     text-decoration: none;
     font-family: var(--fonte-texto);
+    overflow-x: hidden;
 }
 
-body {
+body, html {
     overflow-x: hidden;
 }
 
