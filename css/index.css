@@ -256,6 +256,8 @@ iframe {
 
 .container-card h1 {
     font-weight: 400;
+    width: 80%;
+    text-align: center;
 }
 
 .container-card strong {
@@ -301,6 +303,7 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 20px;
     background-image: url(/img/fundo-seciton.png);
     background-position: center;
@@ -309,6 +312,10 @@ iframe {
     color: white;
     width: 100%;
     padding: 5%;
+}
+
+.action h1 {
+    width: 80%;
 }
 
 .feedbacks {
