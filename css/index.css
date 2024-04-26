@@ -160,6 +160,7 @@ iframe {
 }
 
 .container-lista {
+    overflow: y hidden;
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
