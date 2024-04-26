@@ -157,7 +157,6 @@ iframe {
     background-color: var(--cinza);
     margin-left: 5%;
     margin-right: 5%;
-    padding: 2%;
 }
 
 .container-lista {
@@ -195,6 +194,26 @@ iframe {
     justify-content: center;
 }
 
+.missao {
+    overflow: y hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url(/img/fundo-section2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    padding-bottom: 0;
+    color: white;
+}
+
+.missao .info {
+    color: white;
+}
+
 .page-compromisso {
     overflow: y hidden;
     display: flex;
@@ -202,7 +221,10 @@ iframe {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: black;
+    background-image: url(/img/fundo-section2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2%;
     padding-bottom: 0;
     color: white;
@@ -278,10 +300,13 @@ iframe {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: black;
+    background-image: url(/img/fundo-seciton.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     width: 100%;
-   padding: 5%;
+    padding: 5%;
 }
 
 .feedbacks {
@@ -327,7 +352,10 @@ iframe {
     overflow: y hidden;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #000000;
+    background-image: url(/img/fundo-seciton.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
