@@ -169,7 +169,6 @@ iframe {
 }
 
 .lista-info {
-    overflow-x: hidden;
     list-style: disc;
     display: flex;
     justify-content: center;
@@ -177,7 +176,7 @@ iframe {
     text-align: left;
     gap: 10px;
     color: var(--verde);
-    width: 80%;
+    width: 70%;
     font-size: 20px;
 }
 
@@ -221,6 +220,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 100%;
     background-image: url(/img/fundo-section2.png);
     background-position: center;
