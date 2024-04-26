@@ -16,7 +16,6 @@
     padding: 0;
     text-decoration: none;
     font-family: var(--fonte-texto);
-
 }
 
 body {
@@ -101,6 +100,11 @@ p {
 strong {
     font-weight: bold;
     color: var(--verde);
+}
+
+a {
+    color: black;
+    font-family: var(--fonte-titulo-button);
 }
 
 .material-symbols-outlined {
