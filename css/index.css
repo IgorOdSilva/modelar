@@ -58,7 +58,7 @@ button {
     height: 64px;
     border-radius: 20px;
     border: none;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
     background-color: var(--amarelo);
     color: #000000;
@@ -363,6 +363,10 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.redes-sociais h3 {
+    font-size: 20px;
 }
 
 .link-redes {
