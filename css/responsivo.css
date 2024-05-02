@@ -5,12 +5,21 @@
     }
 
     .swiper {
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
     }
 
     p {
         margin-top: 2%;
+        font-size: 20px;
     }
 
     iframe {
@@ -20,36 +29,52 @@
     .container-page {
         display: flex;
         flex-direction: row-reverse;
-        align-items: flex-start;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
         margin: 5%;
         height: 70vh;
-        width: auto;
+        width: 80%;
     }
     
-    .container-page  .swiper {
-        width: 509px;
-        height: 509px;
-    }
 
-    .container-page  .swiper img {
-        width: 509px;
-        height: 509px;
-    }
-
-    .container-page > .fundo-carrossel {
+    .container-page > .missao > .fundo-carrossel {
         background-color: white;
     }
 
     .missao {
         display: flex;
-        align-items: left;
-        justify-content: left;
+        align-items: center;
+        justify-content: center;
         text-align: left;
         margin-top: 0;
     }
 
+    #compromisso-carrossel {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
 
+    #extra-carrossel {
+        display: block;
+    }
+
+    .sub-title {
+        padding: 20px;
+        width: 87%;
+    }
+
+    .container-card-desk {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-final {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
 
 
 }
