@@ -47,6 +47,7 @@
         justify-content: center;
         text-align: left;
         margin-top: 0;
+        width: 394px;
     }
 
     #compromisso-carrossel {
@@ -71,10 +72,37 @@
 
     .page-final {
         display: flex;
-        justify-content: space-between;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: flex-start;
         flex-direction: row;
+        margin-top: 5%;
     }
-    
 
+    .feedbacks {
+        margin: 0;
+        padding: 0;
+    }
 
+    h2 .material-symbols-outlined {
+        padding-right: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .item-loja img {
+        width: 114px;
+        height: 114px;
+        border-radius: 20px;
+    }
+
+    .redes-sociais {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .link-redes {
+        justify-content: center;
+        gap: 5%;
+    }
 }

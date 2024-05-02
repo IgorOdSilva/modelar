@@ -201,7 +201,7 @@ iframe {
     text-align: left;
     gap: 10px;
     color: var(--verde);
-    width: 70%auto;
+    width: 70%;
     font-size: 20px;
 }
 
@@ -234,7 +234,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 394px;
+    width: 100%;
     background-color: white;
     padding-bottom: 0;
     color: black;
@@ -335,10 +335,7 @@ iframe {
     align-items: center;
     text-align: center;
     gap: 20px;
-    background-image: url(/img/fundo-seciton.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--verde);
     color: white;
     width: 100%;
     padding: 5%;
@@ -356,7 +353,6 @@ iframe {
     align-items: center;
     width: 100%;
     padding-top: 5%;
-    background-color: var(--cinza-section);
 }
 
 .lojas {
@@ -365,7 +361,6 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--cinza-section);
     width: 100%;
 }
 
@@ -391,10 +386,7 @@ iframe {
     overflow-x: hidden;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url(/img/fundo-seciton.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--verde);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -454,7 +446,7 @@ footer img {
 
 h2 .material-symbols-outlined {
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
