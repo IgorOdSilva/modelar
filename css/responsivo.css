@@ -24,16 +24,19 @@
 
     iframe {
         margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .container-page {
+        height: fit-content;
+        margin-top: 2%;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        align-items: center;
-        margin: 5%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: flex-start;
         min-height: max-content;
-        width: 80%;
+        width: 100%;
+       background-color: white;
     }
     
     .page-action {
@@ -44,13 +47,27 @@
         background-color: white;
     }
 
+    .fundo-video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), white 100%), 
+        url("../img/carrossel1/carrossel4.jpg") no-repeat;
+    }
+
     .missao {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: left;
         margin-top: 0;
-        width: 394px;
+        width: 50%;
+    }
+
+
+    .page-compromisso {
+        margin-top: 2%;
     }
 
     #compromisso-carrossel {
@@ -76,8 +93,8 @@
     .page-final {
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
         margin-top: 5%;
     }
