@@ -37,7 +37,9 @@ body, html {
 
 .page-action {
     overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
+    min-height: max-content;
     height: calc(100vh - 109px);
     background-image: url(../img/fundoPg1.png);
     background-position: top;
@@ -107,13 +109,14 @@ a {
     font-family: var(--fonte-titulo-button);
 }
 
+
 .material-symbols-outlined {
     font-size: 16px;
     font-weight: bold;
 }
 
 .swiper {
-    margin: 5%;
+    margin: 4%;
     width: 364px;
     height: 281px;
     border-radius: 20px;
@@ -252,7 +255,7 @@ iframe {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-image: url(/img/fundo-section2.png);
+    background-image: url(/img/fundoPg1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

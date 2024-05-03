@@ -1,25 +1,25 @@
 @media (min-width:800px) {
     #produtos {
-        margin-top: 3%;
+        margin-top: 10px;
         padding: 0;
     }
 
     .swiper {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     p {
-        margin-top: 2%;
-        font-size: 20px;
+        margin-top: 10px;
+        font-size: 18px;
     }
 
     iframe {
@@ -32,10 +32,13 @@
         justify-content: space-around;
         align-items: center;
         margin: 5%;
-        height: 70vh;
+        min-height: max-content;
         width: 80%;
     }
     
+    .page-action {
+        justify-content: center;
+    }
 
     .container-page > .missao > .fundo-carrossel {
         background-color: white;
