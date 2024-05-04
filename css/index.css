@@ -124,8 +124,8 @@ a {
 }
 
 .swiper img {
-    width: 364px;
-    height: 281px;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
@@ -454,8 +454,8 @@ footer h3 {
 }
 
 footer img {
-    width: 78px;
-    height: 78px;
+    width: 100px;
+    height: 100px;
 }
 
 h2 .material-symbols-outlined {
@@ -464,6 +464,110 @@ h2 .material-symbols-outlined {
     color: white;
 }
 
+.whatsapp-link {
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 23px;
+    background-color: #25d366;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.whatsapp-link:hover {
+    background-color: #1c9e4c;
+    transition: 1s;
+}
+
+.icon {
+    margin-top: 12px;
+    color: white;
+    width: 32px;
+}
+
+.form {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.popup button {
+    width: 200px;
+    padding: 10px 20px;
+    background-color: var(--amarelo);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.popup .close-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+.loading {
+    width: 45px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
 
