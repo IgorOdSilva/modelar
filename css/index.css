@@ -554,6 +554,11 @@ h2 .material-symbols-outlined {
     text-transform: lowercase;
 }
 
+.container-texto {
+    align-items: center;
+    justify-content: center;
+}
+
 .loading {
     width: 45px;
     animation: spin 1s infinite linear;
