@@ -67,7 +67,14 @@ button {
     font-family: var(--fonte-titulo-button);
     font-weight: 900;
     cursor: pointer;
+    transition: 0.3s;
 }
+
+button:hover {
+    transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+}
+
+
 
 #produtos {
     margin-top: 5%;
@@ -251,10 +258,21 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
     width: 100%;
     background-color: white;
     padding-bottom: 0;
     color: black;
+}
+
+.missao p {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.missao b {
+    color: var(--verde);
 }
 
 .missao .info {
@@ -379,15 +397,37 @@ iframe {
 .card-lojas {
     margin-top: 5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 10px;
-    width: 80%;
+    width: 60%;
 }
+
 
 .item-loja img {
     width: 88px;
     height: 88px;
     border-radius: 20px;
+}
+
+.item-loja {
+    transition: 0.3s;
+    
+}
+
+.item-loja:hover {
+    transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10%, 90% { transform: translateX(-2px); }
+    20%, 80% { transform: translateX(2px); }
+    30%, 50%, 70% { transform: translateX(-2px); }
+    40%, 60% { transform: translateX(2px); }
+    100% { transform: translateX(0); }
 }
 
 .lojas button {
@@ -417,6 +457,11 @@ iframe {
     justify-content: center;
     gap: 5%;
     width: 80%;
+    transition: 0.3s;
+}
+
+.link-redes a:hover {
+    transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
 }
 
 .item-redes {
@@ -427,7 +472,10 @@ iframe {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    
 }
+
+
 
 #extra-carrossel {
     display: none;
@@ -441,7 +489,8 @@ iframe {
 
 footer {
     overflow: x hidden;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -449,8 +498,15 @@ footer {
     color: black;
 }
 
+.items-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
 footer h3 {
     color: #000000;
+    font-size: 20px;
 }
 
 footer img {
