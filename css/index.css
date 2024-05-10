@@ -501,6 +501,9 @@ footer {
 
 .items-footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
     flex-direction: row;
     gap: 5%;
 }
